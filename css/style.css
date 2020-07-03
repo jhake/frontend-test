@@ -1,0 +1,134 @@
+body{
+    font-family: 'Aleo', 'Helvetica', serif;
+    margin: 0;
+}
+
+header{
+    
+}
+
+header .container{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+header .column{
+    float: left;
+    width: 33.33%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+header .clearfix{
+    clear: both;
+}
+
+header .column ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .column ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header .column ul li:last-child{
+    margin-right: 0px;
+}
+
+header .column ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .column ul li.home a,
+header .column ul li a:hover{
+    color: #e9a438;
+}
+
+header .column.left{
+    text-align: left;
+}
+
+header .column.left ul{
+    margin-left: 100px;
+}
+
+header .column.right{
+    text-align: right;
+}
+
+header .column.right ul{
+    margin-right: 100px;
+}
+
+header .column.logo{
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+header .column.logo img{
+    max-width: 75px;
+}
+
+#banner{
+    background-image: url('../images/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    min-height: 100vh;
+    margin-top: -109px;
+}
+
+#banner .container{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+#banner .column{
+    float: left;
+    width: 50%;
+}
+
+#banner .clearfix{
+    clear: both;
+}
+
+#banner .column #hero{
+    width: calc(100% - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#banner .column h1{
+    font-size: 50px;
+    color: #e58f00;
+    margin: 0;
+    margin-top: 85px;
+}
+
+#banner .column p{
+    color: #ffffff;
+    font-size: 19px;
+    max-width: 400px;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1.4em;
+}
+
+#banner .column a{
+    background-color: #e58f00;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0;
+    margin-top: 20px;
+}
